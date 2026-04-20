@@ -5,13 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>apple</title>
     <link rel="stylesheet" href="index.css" />
+    <style>
+      .container {
+        max-width: 1920px;
+        margin: 0 auto; /* Голлуулах */
+        width: 100%; /* Жижиг дэлгэц дээр 100% харагдах */
+      }
+    </style>
   </head>
   <body>
     <header class="header center">
       <div class="headerIcon__Vector">
         <img src="/images/Vector.png" alt="vector" />
       </div>
-      <a href="./store.html" class="header__link">Store</a>
+      <a
+        href="https://pinecone-academy-fgmu.vercel.app/store.html"
+        class="header__link"
+        >Store</a
+      >
       <span class="header__link">Mac</span>
       <span class="header__link">iPad</span>
       <span class="header__link">iPhone</span>
@@ -50,7 +61,6 @@
               <div class="iphone16-pro__border__2 align-center">
                 <button class="button button--secondary">Buy</button>
               </div>
-              <button></button>
             </div>
           </div>
         </div>
@@ -82,10 +92,34 @@
             <div class="gift__border3">Make their holiday wish come true.</div>
           </div>
           <div class="iphone16-pro__border_2 align-center">
-            <button class="button button--primary">Shop gifts</button>
+            <a
+              href="https://pinecone-academy-fgmu.vercel.app/store.html"
+              class="button button--primary"
+              >Shop gifts</a
+            >
           </div>
         </div>
       </div>
     </section>
+    <div class="product-container">
+      <div class="product" style="--image-url: url(./images/figure.png)">
+        <div class="product-title-image">
+          <img src="/images/Heading 3.png" alt="iPadair" />
+        </div>
+        <p class="product-subHead">Two sizes. Faster chip. Does it all.</p>
+        <p class="product-bottom">Hello, Apple Intelligence.</p>
+        <div
+          class="iphone16-pro__border2 align-center"
+          style="margin-top: 145px"
+        >
+          <div class="iphone16-pro__border_2 align-center">
+            <button class="button button--primary">Learn more</button>
+          </div>
+          <div class="iphone16-pro__border__2 align-center">
+            <button class="button button--secondary">Buy</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

@@ -171,6 +171,7 @@ body {
   line-height: 20px;
   letter-spacing: -0.37px;
   align-items: center;
+  align-content: center;
 }
 .button--secondary {
   color: #2997ff;
@@ -190,12 +191,7 @@ body {
 .gift-magic {
   background-image: url(/images/gift-magic.png);
 }
-.test1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-}
+
 .gift__border {
   width: 405px;
   height: 164px;
@@ -232,4 +228,53 @@ body {
   font-weight: 400;
   font-style: "Regular";
   font-size: 24px;
+}
+/* product container */
+.product-container {
+  gap: 12px;
+  display: grid;
+  column-gap: 12px;
+  grid-auto-rows: 580px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.product {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: var(--image-url) center / cover no-repeat;
+}
+.product-title-image {
+  width: 430px;
+  height: 33px;
+}
+.product-subHead {
+  width: 322px;
+  height: 25px;
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: middle;
+}
+.product-bottom {
+  width: 168px;
+  height: 18px;
+  -webkit-text-fill-color: linear-gradient(
+    90.43deg,
+    #0090f7 0%,
+    #ba62fc 33.33%,
+    #f2416b 66.67%,
+    #f55600 100%
+  );
+  margin-top: 509px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
 }
