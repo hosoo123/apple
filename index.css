@@ -242,15 +242,25 @@ body {
   align-items: center;
   flex-direction: column;
   background: var(--image-url) center / cover no-repeat;
+  padding-block: 48px 58px;
+  gap: 6px;
+}
+.product1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: var(--image-url) center / cover no-repeat;
 }
 .product-title-image {
   width: 430px;
   height: 33px;
+  margin-top: 50px;
 }
 .product-subHead {
   width: 322px;
   height: 25px;
   font-family: "Inter", serif;
+  margin-top: 15px;
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
@@ -261,15 +271,19 @@ body {
 .product-bottom {
   width: 168px;
   height: 18px;
-  -webkit-text-fill-color: linear-gradient(
-    90.43deg,
+  background: -webkit-linear-gradient(
+    45deg,
     #0090f7 0%,
     #ba62fc 33.33%,
     #f2416b 66.67%,
     #f55600 100%
   );
-  margin-top: 509px;
-  font-family: "Inter";
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  background-clip: text;
+  margin-top: 300px;
+  font-family: "Inter" serif;
   font-weight: 500;
   font-style: Medium;
   font-size: 14px;
@@ -277,4 +291,189 @@ body {
   letter-spacing: 0%;
   text-align: center;
   vertical-align: middle;
+}
+.product-title {
+  font-weight: 600;
+  font-size: 36px;
+  color: white;
+}
+.productBottom {
+  justify-content: flex-end;
+}
+.product-Subhead {
+  font-weight: 300;
+  font-size: 18px;
+  font-family: "Inter", serif;
+  color: white;
+}
+.iwatch__Border {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid red;
+  width: 322px;
+  height: 146px;
+}
+.iwatch__Border1 {
+  border: 1px solid red;
+  width: 322px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.iwatch__Border2 {
+  border: 1px solid red;
+  width: 152px;
+  height: 61px;
+  opacity: 1;
+  gap: 4px;
+}
+.iwatch__Border3 {
+  border: 1px solid red;
+  width: 152px;
+  height: 39px;
+  opacity: 1;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+}
+.iwatch__Border3-1 {
+  width: 152px;
+  border: 1px solid red;
+  height: 18px;
+  opacity: 1;
+}
+.series-10 {
+  font-weight: 800;
+  font-size: 15px;
+}
+.iphoneLogo {
+  width: 26.35293960571289px;
+  height: 32px;
+}
+.border-title {
+  font-weight: 700;
+  font-size: 32px;
+}
+.iwatch__Border1-1 {
+  border: 1px solid red;
+  width: 322px;
+  height: 25px;
+}
+.Thinstant-classic {
+  font-weight: 300;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+}
+.imac__Border1 {
+  border: 1px solid red;
+}
+.imac-border-title {
+  font-weight: 600;
+  font-size: 36px;
+  font-family: "Inter", sans-serif;
+}
+.Lean-Mean {
+  margin: 10px;
+}
+.trade-in {
+  width: 322px;
+  height: 146px;
+  border: 1px solid red;
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+  align-items: center;
+}
+.trade-in-border {
+  border: 1px solid red;
+  height: 93px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.trade-in-border1 {
+  border: 1px solid red;
+  height: 39px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.trade-title {
+  font-weight: 700;
+  font-size: 32px;
+  font-family: "Inter", sans-serif;
+}
+.trade-in-subhead {
+  font-weight: 300;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+}
+.font__style {
+  font-weight: 300;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+.trade--border {
+  width: 167px;
+  height: 40px;
+  border-radius: 44px;
+}
+.button--Apply-now {
+  color: #2997ff;
+  cursor: pointer;
+  text-decoration: none;
+  border: solid #0071e3 1px;
+  width: 112px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  border-radius: 99px;
+  background-color: transparent;
+}
+.learn-more-apply-now-border {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+}
+.media-carousel {
+  width: 100%;
+  display: flex;
+  column-gap: 15px;
+  overflow-x: scroll;
+  align-items: center;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+.carousel-slide {
+  width: 1250px;
+  height: 668px;
+  color: white;
+  flex-shrink: 0;
+  font-size: 20px;
+  position: relative;
+  scroll-snap-align: center;
+  background: var(--background-image) center / cover no-repeat;
+}
+.carousel-info {
+  left: 47px;
+  bottom: 38px;
+  position: absolute;
+}
+.carousel-info-button {
+  border: none;
+  cursor: pointer;
+  font-size: 17px;
+  padding: 11px 21px;
+  margin-right: 14px;
+  border-radius: 999px;
+  background-color: #f5f5f7;
 }
