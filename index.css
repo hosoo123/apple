@@ -10,11 +10,12 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  width: 1920px;
+  width: 100%;
   margin: 0 auto;
   padding: 0;
   display: block;
   background: linear-gradient(180deg, #f5f5f7 0.59%, #ffffff 0.59%);
+  background-position: center;
 }
 .center {
   display: flex;
@@ -22,22 +23,26 @@ body {
   align-items: center;
 }
 .header {
-  border: 1px solid red;
   background-color: white;
   z-index: 10;
-  width: 1920px;
+  width: 100%;
   height: 44px;
   column-gap: 24px;
   position: fixed;
 }
 .header__icon {
   column-gap: 48px;
-  border: 1px solid red;
 }
 .border {
-  border: 1px solid red;
   width: 30px;
   height: 40px;
+}
+.header__icon--image--menu {
+  display: none;
+}
+.icons {
+  flex-direction: row;
+  column-gap: 24px;
 }
 .header__link {
   color: rgba(0, 0, 0, 1);
@@ -55,7 +60,7 @@ body {
   width: 1920;
   height: 52;
   gap: 4px;
-  border: 1px solid red;
+
   position: relative;
   top: 44px;
   text-align: center;
@@ -73,7 +78,7 @@ body {
   margin-bottom: 44px;
 }
 .section1 {
-  width: 1920px;
+  width: 100%;
   height: auto;
   background-repeat: no-repeat;
   background-position: center;
@@ -84,12 +89,12 @@ body {
 }
 
 .hero__container {
-  border: 1px solid red;
-  width: 1920px;
+  width: 100%;
   height: 692px;
   margin-bottom: 12px;
   display: flex;
   justify-content: center;
+  background-position: center;
 }
 .align-center {
   display: flex;
@@ -98,11 +103,10 @@ body {
 }
 .iphone16-pro {
   background-image: url(/images/iphone16-pro.png);
-  border: 1px solid red;
 }
 .iphone16-pro__border {
   gap: 20px;
-  border: 1px solid red;
+
   width: 405px;
   height: 172px;
   margin-top: 55px;
@@ -112,7 +116,6 @@ body {
   flex-direction: column;
 }
 .iphone16-pro1 {
-  border: 1px solid red;
   width: 405px;
   height: 60px;
   font-family: "Inter", serif;
@@ -123,7 +126,6 @@ body {
   color: white;
 }
 .iphone16-pro2 {
-  border: 1px solid red;
   width: 405px;
   height: 32px;
   font-family: "Inter", serif;
@@ -136,14 +138,12 @@ body {
   color: rgba(245, 245, 247, 1);
 }
 .iphone16-pro__border1 {
-  border: 1px solid red;
   width: 405px;
   height: 108px;
   flex-direction: column;
   gap: 16px;
 }
 .iphone16-pro__border2 {
-  border: 1px solid red;
   width: 207px;
   height: 44px;
   gap: 16px;
@@ -185,7 +185,6 @@ body {
   background-color: transparent;
 }
 .iphone16 {
-  border: 1px solid red;
   background-image: url(/images/iphone16.png);
 }
 .gift-magic {
@@ -195,7 +194,7 @@ body {
 .gift__border {
   width: 405px;
   height: 164px;
-  border: 1px solid red;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -203,7 +202,6 @@ body {
   margin-top: 446px;
 }
 .gift__border1 {
-  border: 1px solid red;
   height: 104px;
   width: auto;
   margin-bottom: 12px;
@@ -211,7 +209,7 @@ body {
 .gift__border2 {
   height: 60px;
   width: auto;
-  border: 1px solid red;
+
   margin-bottom: 12px;
   font-family: "Inter", serif;
   font-weight: 600;
@@ -223,7 +221,7 @@ body {
 }
 .gift__border3 {
   height: 32px;
-  border: 1px solid red;
+
   font-family: "Inter", serif;
   font-weight: 400;
   font-style: "Regular";
@@ -313,12 +311,11 @@ body {
   align-items: center;
   flex-direction: column;
   gap: 10px;
-  border: 1px solid red;
+
   width: 322px;
   height: 146px;
 }
 .iwatch__Border1 {
-  border: 1px solid red;
   width: 322px;
   height: 90px;
   display: flex;
@@ -327,14 +324,12 @@ body {
   align-items: center;
 }
 .iwatch__Border2 {
-  border: 1px solid red;
   width: 152px;
   height: 61px;
   opacity: 1;
   gap: 4px;
 }
 .iwatch__Border3 {
-  border: 1px solid red;
   width: 152px;
   height: 39px;
   opacity: 1;
@@ -344,7 +339,7 @@ body {
 }
 .iwatch__Border3-1 {
   width: 152px;
-  border: 1px solid red;
+
   height: 18px;
   opacity: 1;
 }
@@ -361,7 +356,6 @@ body {
   font-size: 32px;
 }
 .iwatch__Border1-1 {
-  border: 1px solid red;
   width: 322px;
   height: 25px;
 }
@@ -371,7 +365,6 @@ body {
   font-size: 18px;
 }
 .imac__Border1 {
-  border: 1px solid red;
 }
 .imac-border-title {
   font-weight: 600;
@@ -384,21 +377,19 @@ body {
 .trade-in {
   width: 322px;
   height: 146px;
-  border: 1px solid red;
+
   display: flex;
   gap: 12px;
   flex-direction: column;
   align-items: center;
 }
 .trade-in-border {
-  border: 1px solid red;
   height: 93px;
   display: flex;
   flex-direction: column;
   text-align: center;
 }
 .trade-in-border1 {
-  border: 1px solid red;
   height: 39px;
   display: flex;
   justify-content: center;
@@ -490,4 +481,137 @@ body {
   margin-inline: 7px;
   border-radius: 50%;
   transition: opacity 250ms;
+}
+
+.slider-wrapper {
+  width: 100%;
+  overflow: hidden;
+  height: var(--height);
+  padding-top: 12px;
+  --width: 417px;
+  --height: 236px;
+  --quantity: 9.44;
+}
+.slider {
+  width: 100%;
+  display: flex;
+  position: relative;
+  min-width: calc(var(--width) * var(--quantity));
+}
+.slider-item {
+  left: 100%;
+  position: absolute;
+  width: var(--width);
+  height: var(--height);
+  transition: filter 0.5s;
+  background-color: var(--bg-color);
+  animation: slider 60s linear infinite;
+  animation-delay: calc((56.5s / var(--quantity)) * (var(--item) - 6.5));
+}
+.slider-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  column-gap: 15px;
+  font-weight: bold;
+  position: relative;
+  align-items: center;
+  color: var(--color);
+  background-size: cover;
+}
+.slider-button {
+  opacity: 0;
+  border: none;
+  margin-top: 20px;
+  padding: 7px 15px;
+  border-radius: 999px;
+  background-color: white;
+}
+.slider:hover .slider-item {
+  filter: grayscale(1);
+  animation-play-state: paused;
+}
+.slider .slider-item:hover {
+  filter: grayscale(0);
+}
+.slider-image-small {
+  width: 196px;
+  height: 196px;
+  overflow: hidden;
+  margin-left: 15px;
+  border-radius: 8px;
+}
+.slider-image-full {
+  background-image: var(--background-image);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.slider-image-full img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.slider .slider-item:hover {
+  filter: grayscale(0);
+}
+.slider-item:hover .slider-button {
+  opacity: 1;
+  margin-top: 0;
+  transition: all 0.3s ease;
+}
+.slider-item:hover .slider-overlay {
+  opacity: 1;
+  transition: all 0.3s ease-in;
+}
+
+.slider-caption {
+  left: 15px;
+  bottom: 30px;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+}
+.slider-overlay {
+  inset: 0;
+  opacity: 0;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+@keyframes slider {
+  from {
+    left: 100%;
+  }
+  to {
+    left: calc(var(--width) * -1);
+  }
+}
+
+@media (max-width: 1024px) {
+  /* header section */
+  .header__icon--image--menu {
+    display: block;
+  }
+  .header {
+    height: 48px;
+    justify-content: space-between;
+  }
+  .header__link {
+    display: none;
+  }
+  .header__icons {
+    column-gap: 0;
+  }
+
+  .header__icon {
+    width: 48px;
+  }
+
+  .header__icon--image--menu {
+    display: block;
+  }
 }
