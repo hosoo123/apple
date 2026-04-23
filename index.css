@@ -41,8 +41,7 @@ body {
   display: none;
 }
 .icons {
-  flex-direction: row;
-  column-gap: 24px;
+  column-gap: 32px;
 }
 .header__link {
   color: rgba(0, 0, 0, 1);
@@ -57,10 +56,9 @@ body {
   text-decoration: none;
 }
 .donation__banner {
-  width: 1920;
-  height: 52;
+  width: 100%;
+  height: 52px;
   gap: 4px;
-
   position: relative;
   top: 44px;
   text-align: center;
@@ -250,6 +248,7 @@ body {
   background: var(--image-url) center / cover no-repeat;
 }
 .product-title-image {
+  background-image: url(/images/Heading3.png);
   width: 430px;
   height: 33px;
   margin-top: 50px;
@@ -280,7 +279,7 @@ body {
   -webkit-text-fill-color: transparent;
   color: transparent;
   background-clip: text;
-  margin-top: 300px;
+  margin-top: 350px;
   font-family: "Inter" serif;
   font-weight: 500;
   font-style: Medium;
@@ -597,6 +596,7 @@ body {
     display: block;
   }
   .header {
+    padding: 16px;
     height: 48px;
     justify-content: space-between;
   }
@@ -606,12 +606,65 @@ body {
   .header__icons {
     column-gap: 0;
   }
-
-  .header__icon {
-    width: 48px;
-  }
-
   .header__icon--image--menu {
     display: block;
+  }
+  /* donation banner */
+  .donation__banner {
+    margin-top: 48px;
+    padding-block: 12px;
+  }
+  /* hero container */
+  .iphone16-pro {
+    background-image: url(/images/iphone16-pro.png);
+  }
+  .hero__container {
+    height: 650px;
+    background-size: cover;
+  }
+  .iphone16-pro__border {
+    font-size: 40px;
+  }
+  .hero-subhead {
+    margin-block: 4px 16px;
+  }
+}
+@media (max-width: 768px) {
+  .hero__container {
+    width: 768px;
+    height: 650px;
+    background-size: cover;
+  }
+  .iphone16-pro {
+    background-image: url(/images/768px/Figure768px.png);
+  }
+  .iphone16 {
+    background-image: url(/images/768px/Figure768.png);
+  }
+  .product-container {
+    grid-auto-rows: 490px;
+  }
+  .donation__banner {
+    height: 58px;
+    padding-block: 12px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-left: 50px;
+  }
+  .product-title-image {
+    background-image: url(/images/768px/ipadair.png);
+    width: 180px;
+    height: 33px;
+    padding-block: 30px 12px;
+    background-repeat: no-repeat;
+  }
+  .product-bottom {
+    margin-top: 300px;
+  }
+  .product-subHead {
+    margin-top: 0px;
+  }
+  .product-container {
   }
 }
