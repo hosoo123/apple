@@ -703,8 +703,8 @@ body {
   .carousel-slide {
     width: 274px;
     height: 495px;
+    background-size: cover;
   }
-  background-size: cover;
   .button {
     padding: 8px 16px;
   }
