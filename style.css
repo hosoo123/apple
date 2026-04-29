@@ -714,4 +714,7 @@ body {
     height: 73px;
   }
   .product-subHead {font-size: 12px;}
+  .product-subhead {font-size: 12px;}
+  .product-title {font-size: 16px;}
+  .product-title-image {font-size: 14px;}
 }
