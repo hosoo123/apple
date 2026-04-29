@@ -715,7 +715,7 @@ body {
     background-image: url(/images/390px/iphone16-30px.png);
   }
   .hero__container {
-    width: 100%;
+    width: 390px;
     height: 500px;
     background-size: cover;
     background-position: center;
