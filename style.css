@@ -64,7 +64,9 @@ body {
   vertical-align: middle;
   width: 100%;
   text-align: center;
-  padding: 50px 0px;
+  padding: 50px;
+  top: 19px;
+  position: relative;
   margin: auto;
 }
 .section1 {
@@ -632,7 +634,7 @@ body {
     height: 58px;
     padding-block: 12px;
     text-align: center;
-    /* padding-left: 50px; */
+    padding: 60px;
   }
   .product-title-image {
     background-image: url(/images/768px/ipadair.png);
