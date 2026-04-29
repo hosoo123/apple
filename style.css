@@ -698,7 +698,7 @@ body {
     display: grid;
     width: 100%;
     grid-template-columns: 1fr;
-    grid-template-columns: repeat(1, minmax(280px, 1fr));
+    grid-template-columns: repeat(1, minmax(390px, 1fr));
     gap: 12px;
     background-size: cover;
   }
